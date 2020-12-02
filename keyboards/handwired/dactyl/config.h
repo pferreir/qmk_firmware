@@ -65,5 +65,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE    15
 
 #define USB_MAX_POWER_CONSUMPTION 500
+#define UNICODE_SELECTED_MODES UC_MAC
 
 #endif
