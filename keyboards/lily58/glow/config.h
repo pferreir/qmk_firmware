@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFC51
-#define PRODUCT_ID      0x0058 
+#define PRODUCT_ID      0x0058
 #define DEVICE_VER      0x0100
 #define MANUFACTURER    qtkb
 #define PRODUCT         Lily58-glow
@@ -58,8 +58,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
-#define RGBLED_NUM 70    // Number of LEDs for Lily58+Glow
-#define DRIVER_LED_TOTAL 70 // Number of LEDs for Lily58-Glow
+#define RGBLED_NUM 58    // Number of LEDs for Lily58+Glow
+#define DRIVER_LED_TOTAL 58 // Number of LEDs for Lily58-Glow
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 120 // Sane brightness values so the board has enough power to operate
 #define RGB_MATRIX_STARTUP_VAL 120
 #endif

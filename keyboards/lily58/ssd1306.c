@@ -1,6 +1,7 @@
 #ifdef SSD1306OLED
 
 #include "ssd1306.h"
+#include "action.h"
 #include "i2c.h"
 #include <string.h>
 #include "print.h"
@@ -34,6 +35,8 @@ static uint8_t displaying;
 static uint16_t last_flush;
 
 static bool force_dirty = true;
+
+struct CharacterMatrix display;
 
 // Write command sequence.
 // Returns true on success.
